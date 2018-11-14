@@ -1,0 +1,101 @@
+[2018-11-14 10:57:02] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"66e7ff7"}
+[2018-11-14 10:58:39] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"7c3f218"}
+[2018-11-14 11:00:03] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"82edb5e"}
+[2018-11-14 11:00:17] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"2bcded2"}
+[2018-11-14 11:00:33] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"17dc2cc"}
+[2018-11-14 11:00:57] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"0762693"}
+[2018-11-14 11:02:11] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"bd2cbbd"}
+[2018-11-14 11:03:28] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"5f3ba6c"}
+[2018-11-14 11:03:43] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"9d2ce30"}
+[2018-11-14 11:13:41] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"ced94e9"}
+[2018-11-14 11:14:31] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"05f5b1a"}
+[2018-11-14 11:30:05] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"e9a3d5e"}
+[2018-11-14 11:32:02] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"b7943c3"}
+[2018-11-14 11:32:23] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"5261e39"}
+[2018-11-14 11:35:13] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"cb29fda"}
+[2018-11-14 11:35:51] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"79507e8"}
+[2018-11-14 11:35:51] slim-app.INFO: 200 OK [""] {"uid":"79507e8"}
+[2018-11-14 11:36:11] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"0b6817f"}
+[2018-11-14 11:36:12] slim-app.INFO: 200 OK [""] {"uid":"0b6817f"}
+[2018-11-14 11:37:21] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"beca70c"}
+[2018-11-14 11:37:22] slim-app.INFO: 200 OK [""] {"uid":"beca70c"}
+[2018-11-14 11:41:46] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"5b41e0e"}
+[2018-11-14 11:41:46] slim-app.INFO: 200 OK [""] {"uid":"5b41e0e"}
+[2018-11-14 11:44:29] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"1c79981"}
+[2018-11-14 11:44:29] slim-app.INFO: 200 OK ["[]"] {"uid":"1c79981"}
+[2018-11-14 11:45:56] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo","email":"akanni@gmail.com","password":"1111"}} {"uid":"a37b5c1"}
+[2018-11-14 11:45:56] slim-app.INFO: 200 OK ["{\"code\":0,\"message\":\"Created Successfully\",\"resources\":{\"username\":\"mylo\",\"email\":\"akanni@gmail.com\",\"password\":\"1111\",\"updated_at\":\"2018-11-14 11:45:56\",\"created_at\":\"2018-11-14 11:45:56\",\"id\":4}}"] {"uid":"a37b5c1"}
+[2018-11-14 11:50:59] slim-app.INFO: POST /user {"Arguments":[],"Body":{"username":"mylo12","email":"akanni@gmail.com","password":"1111"}} {"uid":"82314d5"}
+[2018-11-14 11:51:00] slim-app.INFO: 201 Created ["{\"code\":0,\"message\":\"Created Successfully\",\"resources\":{\"username\":\"mylo12\",\"email\":\"akanni@gmail.com\",\"password\":\"1111\",\"updated_at\":\"2018-11-14 11:51:00\",\"created_at\":\"2018-11-14 11:51:00\",\"id\":5}}"] {"uid":"82314d5"}
+[2018-11-14 12:03:02] slim-app.INFO: GET /users {"Arguments":[],"Body":null} {"uid":"80f27ba"}
+[2018-11-14 12:03:02] slim-app.INFO: 200 OK ["{\"code\":0,\"message\":\"Fetched Successfully\",\"resources\":[{\"id\":1,\"email\":\"akanni@gmail.com\",\"username\":\"mylo\",\"password\":\"1111\",\"created_at\":\"2018-11-14 11:35:51\",\"updated_at\":\"2018-11-14 11:35:51\",\"deleted_at\":null},{\"id\":2,\"email\":\"akanni@gmail.com\",\"username\":\"mylo\",\"password\":\"1111\",\"created_at\":\"2018-11-14 11:36:11\",\"updated_at\":\"2018-11-14 11:36:11\",\"deleted_at\":null},{\"id\":3,\"email\":\"akanni@gmail.com\",\"username\":\"mylo\",\"password\":\"1111\",\"created_at\":\"2018-11-14 11:37:21\",\"updated_at\":\"2018-11-14 11:37:21\",\"deleted_at\":null},{\"id\":4,\"email\":\"akanni@gmail.com\",\"username\":\"mylo\",\"password\":\"1111\",\"created_at\":\"2018-11-14 11:45:56\",\"updated_at\":\"2018-11-14 11:45:56\",\"deleted_at\":null},{\"id\":5,\"email\":\"akanni@gmail.com\",\"username\":\"mylo12\",\"password\":\"1111\",\"created_at\":\"2018-11-14 11:51:00\",\"updated_at\":\"2018-11-14 11:51:00\",\"deleted_at\":null}]}"] {"uid":"80f27ba"}
+[2018-11-14 12:09:53] slim-app.INFO: DELETE /user/{email} {"Arguments":{"email":"akanni@gmail.com"},"Body":{"username":"mylo12","email":"akanni@gmail.com","password":"1111"}} {"uid":"759e09d"}
+[2018-11-14 12:09:54] slim-app.INFO: 200 OK [""] {"uid":"759e09d"}
+[2018-11-14 12:10:17] slim-app.INFO: GET /users {"Arguments":[],"Body":null} {"uid":"7094320"}
+[2018-11-14 12:10:17] slim-app.INFO: 200 OK ["{\"code\":0,\"message\":\"Fetched Successfully\",\"resources\":[{\"id\":2,\"email\":\"akanni@gmail.com\",\"username\":\"mylo\",\"password\":\"1111\",\"created_at\":\"2018-11-14 11:36:11\",\"updated_at\":\"2018-11-14 11:36:11\",\"deleted_at\":null},{\"id\":3,\"email\":\"akanni@gmail.com\",\"username\":\"mylo\",\"password\":\"1111\",\"created_at\":\"2018-11-14 11:37:21\",\"updated_at\":\"2018-11-14 11:37:21\",\"deleted_at\":null},{\"id\":4,\"email\":\"akanni@gmail.com\",\"username\":\"mylo\",\"password\":\"1111\",\"created_at\":\"2018-11-14 11:45:56\",\"updated_at\":\"2018-11-14 11:45:56\",\"deleted_at\":null},{\"id\":5,\"email\":\"akanni@gmail.com\",\"username\":\"mylo12\",\"password\":\"1111\",\"created_at\":\"2018-11-14 11:51:00\",\"updated_at\":\"2018-11-14 11:51:00\",\"deleted_at\":null}]}"] {"uid":"7094320"}
+[2018-11-14 12:13:19] slim-app.INFO: DELETE /user/{email} {"Arguments":{"email":"akanni@gmail.com"},"Body":null} {"uid":"06efd31"}
+[2018-11-14 12:13:19] slim-app.INFO: 200 OK ["{\"code\":0,\"message\":\"Deleted Successfully\",\"resources\":true}"] {"uid":"06efd31"}
+[2018-11-14 12:15:51] slim-app.INFO: DELETE /user/{email} {"Arguments":{"email":"akanni@gmail.com"},"Body":null} {"uid":"90d8197"}
+[2018-11-14 12:15:51] slim-app.INFO: 200 OK ["{\"code\":0,\"message\":\"Deleted Successfully\",\"resources\":[]}"] {"uid":"90d8197"}
+[2018-11-14 12:17:00] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"9dd30f3"}
+[2018-11-14 12:17:58] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"107b43b"}
+[2018-11-14 12:18:33] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"a31e1c0"}
+[2018-11-14 12:19:48] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"c7ad8e7"}
+[2018-11-14 12:19:55] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"0efc333"}
+[2018-11-14 12:22:57] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"8727c50"}
+[2018-11-14 12:22:57] slim-app.INFO: 204 No Content ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"8727c50"}
+[2018-11-14 12:23:51] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n}":""}} {"uid":"bbde05c"}
+[2018-11-14 12:23:51] slim-app.INFO: 204 No Content ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"bbde05c"}
+[2018-11-14 12:25:31] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n}":""}} {"uid":"2c3cb4a"}
+[2018-11-14 12:25:31] slim-app.INFO: 204 No Content ["{\"code\":1,\"message\":\"empty request body\",\"resources\":null}"] {"uid":"2c3cb4a"}
+[2018-11-14 12:25:53] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n}":""}} {"uid":"3bc6025"}
+[2018-11-14 12:25:53] slim-app.INFO: 200 OK [""] {"uid":"3bc6025"}
+[2018-11-14 12:26:10] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n}":""}} {"uid":"37af391"}
+[2018-11-14 12:26:10] slim-app.INFO: 200 OK [""] {"uid":"37af391"}
+[2018-11-14 12:26:23] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n}":""}} {"uid":"2c02467"}
+[2018-11-14 12:26:23] slim-app.INFO: 204 No Content ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"2c02467"}
+[2018-11-14 12:26:34] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n}":""}} {"uid":"ca62f03"}
+[2018-11-14 12:26:34] slim-app.INFO: 200 OK [""] {"uid":"ca62f03"}
+[2018-11-14 12:27:17] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n}":""}} {"uid":"c281851"}
+[2018-11-14 12:27:17] slim-app.INFO: 204 No Content ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"c281851"}
+[2018-11-14 12:28:41] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n}":""}} {"uid":"f65a860"}
+[2018-11-14 12:28:41] slim-app.INFO: 200 OK ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"f65a860"}
+[2018-11-14 12:29:47] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n}":""}} {"uid":"a16322d"}
+[2018-11-14 12:29:59] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n}":""}} {"uid":"87097c7"}
+[2018-11-14 12:29:59] slim-app.INFO: 200 OK ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"87097c7"}
+[2018-11-14 12:30:24] slim-app.INFO: POST /user {"Arguments":[],"Body":{"{\n\n}":""}} {"uid":"dbd0704"}
+[2018-11-14 12:30:24] slim-app.INFO: 200 OK ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"dbd0704"}
+[2018-11-14 12:31:40] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"694bbaf"}
+[2018-11-14 12:31:40] slim-app.INFO: 200 OK ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"694bbaf"}
+[2018-11-14 12:31:46] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"68f86c0"}
+[2018-11-14 12:31:46] slim-app.INFO: 200 OK ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"68f86c0"}
+[2018-11-14 12:32:07] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"326f046"}
+[2018-11-14 12:32:07] slim-app.INFO: 200 OK ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"326f046"}
+[2018-11-14 12:33:15] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"348f9c4"}
+[2018-11-14 12:33:15] slim-app.INFO: 200 OK ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"348f9c4"}
+[2018-11-14 12:33:46] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"2b7b109"}
+[2018-11-14 12:33:46] slim-app.INFO: 204 No Content ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"2b7b109"}
+[2018-11-14 12:34:10] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"95cf40b"}
+[2018-11-14 12:34:10] slim-app.INFO: 204 No Content ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"95cf40b"}
+[2018-11-14 12:35:28] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"54e9d1e"}
+[2018-11-14 12:35:28] slim-app.INFO: 200 OK ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"54e9d1e"}
+[2018-11-14 12:36:31] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"5c8492b"}
+[2018-11-14 12:36:31] slim-app.INFO: 200 OK [""] {"uid":"5c8492b"}
+[2018-11-14 12:37:00] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"7e245a4"}
+[2018-11-14 12:37:00] slim-app.INFO: 200 OK [""] {"uid":"7e245a4"}
+[2018-11-14 12:37:19] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"a24ba2b"}
+[2018-11-14 12:37:19] slim-app.INFO: 200 OK ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"a24ba2b"}
+[2018-11-14 14:39:16] slim-app.INFO: POST /user {"Arguments":[],"Body":[]} {"uid":"96b8980"}
+[2018-11-14 14:39:16] slim-app.INFO: 200 OK ["{\"code\":1,\"message\":\"empty request body\"}"] {"uid":"96b8980"}
+[2018-11-14 14:39:43] slim-app.INFO: GET /bookings {"Arguments":[],"Body":null} {"uid":"81535c9"}
+[2018-11-14 14:40:29] slim-app.INFO: GET /bookings {"Arguments":[],"Body":null} {"uid":"58b0ad5"}
+[2018-11-14 14:41:33] slim-app.INFO: GET /bookings {"Arguments":[],"Body":null} {"uid":"3e476ce"}
+[2018-11-14 14:42:08] slim-app.INFO: GET /bookings {"Arguments":[],"Body":null} {"uid":"30c9bbe"}
+[2018-11-14 14:42:08] slim-app.INFO: 200 OK ["{\"code\":0,\"message\":\"Fetched Successfully\",\"resources\":[]}"] {"uid":"30c9bbe"}
+[2018-11-14 14:42:21] slim-app.INFO: GET /reviews {"Arguments":[],"Body":null} {"uid":"a269586"}
+[2018-11-14 14:42:21] slim-app.INFO: 200 OK ["{\"code\":0,\"message\":\"Fetched Successfully\",\"resources\":[]}"] {"uid":"a269586"}
+[2018-11-14 14:52:55] slim-app.INFO: GET /bookings/{user_id} {"Arguments":{"user_id":"1"},"Body":null} {"uid":"31919af"}
+[2018-11-14 14:52:56] slim-app.INFO: 200 OK ["{\"code\":0,\"message\":\"Fetched Successfully\",\"resources\":[]}"] {"uid":"31919af"}
+[2018-11-14 14:55:03] slim-app.INFO: POST /bookings/{user_id} {"Arguments":{"user_id":"1"},"Body":{"table_no":"5","booking_name":"Tayo","booking_date":"today","booking_time":"time"}} {"uid":"39f8c78"}
+[2018-11-14 14:55:59] slim-app.INFO: POST /bookings/{user_id} {"Arguments":{"user_id":"1"},"Body":{"table_no":"5","booking_name":"Tayo","booking_date":"today","booking_time":"time"}} {"uid":"087a385"}
+[2018-11-14 14:56:01] slim-app.INFO: 201 Created ["{\"code\":0,\"message\":\"Booking Created Successfully\",\"resources\":{\"booking_date\":\"today\",\"booking_time\":\"time\",\"booking_status\":true,\"updated_at\":\"2018-11-14 14:56:00\",\"created_at\":\"2018-11-14 14:56:00\",\"id\":1}}"] {"uid":"087a385"}
